@@ -2,6 +2,7 @@ pipeline {
     agent {
         label 'testslave'
     }
+<-- hello -->
 
     stages {
         stage('Checkout code') {
